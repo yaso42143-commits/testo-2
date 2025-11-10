@@ -98,7 +98,7 @@ def run_web():
 
 # ====== main ======
 def main():
-    TOKEN = "8513557954:AAGdH-YWL74LXuND7jCPEv8KOm8fPzI7LnA"  # ← استبدل بالتوكن الحقيقي من @BotFather
+    TOKEN = "8011123235:AAHlLzHctq9Frtp2ZBNYSVcHQpTYnZ8S7i4"  # ← استبدل بالتوكن الحقيقي من @BotFather
     # شغّل الويب سيرفر في ثريد منفصل (daemon) علشان ما يمنعش run_polling
     threading.Thread(target=run_web, daemon=True).start()
 
